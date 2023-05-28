@@ -15,4 +15,5 @@ const config: Config = {
   verbose: true,
 };
 
+//ts-prune-ignore-next
 export default config;
