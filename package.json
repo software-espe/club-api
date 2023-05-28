@@ -15,6 +15,7 @@
     "validate": "npm run lint && npm run test && npm run prune",
     "test": "jest",
     "prune": "ts-prune -e",
+    "postinstall": "prisma generate",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand"
